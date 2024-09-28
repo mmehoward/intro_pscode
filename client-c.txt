@@ -1,4 +1,11 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+Start total-counted == 0
+Loop
+  Print "Please scan package."
+  User input = scan
+  Add 2 to total-counted
+  Print "Thank you! Total of {total-counted} packages counted."
+  Continue until total-counted == 50; Print "You've filled the case with 50 products. Please start a new case."
+End Loop

@@ -1,4 +1,26 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+Print "Welcome to Big Box McWarehouse!"
+Print "Are you starting from the front door? Type y or n"
+User input
+  If =="y", print "Great! Notice the big tiles on the floor? Your directions will be given based on these tiles."
+  If =="n", print "No worries - go back to the front door. Notice the big tiles on the floor? Your directions will be given based on these tiles."
+Set current-location to front-door (0,0)
+Print "Let's find the laundry detergent. Follow the directions and move one tile at a time."
+Set target-location to laundry-detergent (5,6)
+Map path
+User input = gyroscopic + GPS
+Loop
+  Print "Move 1 block {direction}
+    direction = 
+      "north" = 1 block forward
+      "south" = 1 block backward
+      "east" = 1 block right
+      "west" = 1 block left
+  Check current-location
+  If correct, print "Great! Keeping going!"
+  If incorrect, print "Oh no - wrong direction! Go back and try again."
+  Continue until current-location == target-location
+End Loop
+Print "Congratulations! You've reached the laundry detergent!"

@@ -1,4 +1,23 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+Print "Welcome!"
+Randomly generate number (1,10)
+Print "Guess a number 1 through 10 - you'll get three tries to get it right!"
+Print "What is your guess?"
+User input
+  Validate between (1,10)
+If input == randomly generated number
+  Print "You guessed it! Great job!"
+  Else Print "So sorry! Two more guesses!"
+User input
+  Validate between (1,10)
+If input == randomly generated number
+  Print "You guessed it on the second try! Great job!"
+  Else Print "So sorry! Only one more guess!"
+User input
+  Validate between (1,10)
+If input == randomly generated number
+  Print "You guessed it on the last try! Great job!"
+  Else Print "Oh no! Thanks for playing."
+End
